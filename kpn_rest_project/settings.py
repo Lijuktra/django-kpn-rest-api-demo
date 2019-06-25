@@ -28,7 +28,9 @@ SECRET_KEY = 'qos!w^!&71y1kdx(hq05*+a(r-k@7&s1#j1j193goc0^4fahib'
 DEBUG = bool(int(os.environ.get('DEBUG', 1) ))
 
 ALLOWED_HOSTS = ['ec2-52-56-164-11.eu-west-2.compute.amazonaws.com',
- '127.0.0.1'
+ '127.0.0.1',
+ 'lijusdomain-kpndjango.centralus.cloudapp.azure.com',
+ '104.43.138.41'
  ]
 
 
